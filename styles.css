@@ -1,0 +1,117 @@
+/* future color #864343 */
+.B3Z8Gb, .KUoQBb, .gFMo3, .VQKhac {
+	/* margin-top: 3%; */
+}
+.B3Z8Gb {
+	filter: sepia(9%) blur(2px) brightness(87%) hue-rotate(20deg) saturate(88%) contrast(95%);
+}
+.Z5U6eb.IuUNT {
+	top: 0 !important;
+}
+.L4d3Ob.YySNWc {
+	background-color: RGBA(23, 22, 22, .2) !important;
+}
+/* play button */
+.g3joHc {
+}
+/* navbar background */
+.eMobNd, .zM6lsb.lEPylf.sfe1Ff {
+	background-color: transparent !important;
+}
+.FJXyO {
+	/* border: 1px solid #171616;
+	border-radius: 0px 0px 12px 12px !important;*/
+	background-color: transparent !important;
+	/*box-shadow: 0 0.25rem 2.5rem rgba(0,0,0,0.30), 0 0.125rem 0.75rem rgba(0,0,0,0.4);*/
+}
+.bl2XYb, .V0Ny2c, .pmZgLb, .u6yOLc {
+	font-weight: bold;
+	background: -webkit-linear-gradient(#FC4A1F, #AC0D57);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.jMSKXe {
+	height: calc(110vh - 4rem) !important;
+}
+.Uut5Fb[aria-checked="true"]:not([aria-disabled="true"])>.MLPG7{
+	border-color: rgba(172, 13, 87,0.502) !important;
+}
+.Uut5Fb[aria-checked="true"]:not([aria-disabled="true"]) .espmsb {
+	border-color: #AC0D57 !important;
+}
+.XrPvHf[aria-checked="true"] .MLPG7 {
+	border-color: #AC0D57 !important;
+}
+.bUM8ne.Jkhuz {
+	background: linear-gradient(rgba(32,33,36,0),rgba(23,22,22)) !important;
+}
+.VY8blf.fSorq {
+    color: #f2ebeb;
+}
+.OFe4V {
+	margin-top: 20%;
+	background-color: #171616 !important;
+}
+.zRamU {
+	background-color: #252424 !important;
+}
+.us22N, .XfSlpd, .hxhAyf, .wvCs4c.ltdNmc, .P9pxvf, .byi4Jf, .iEFmdf, .Ie0Ppf, .WTddpc, .YMoorb, .Z5U6eb.TUSvRc.ahEBEd.fcUT2e, .YM2B3c, .Z5U6eb, .tk10bc.oJeWuf, .stadiaplus_ui-component, .hvEBjd {
+	background-color: #171616 !important;
+}
+.TZ0BN, .Ovq7zc, .f6zwtd, .h6J22d.QAAyWd, .CTvDXd.QAAyWd.Fjy05d.ivWUhc.ZULyab.rpgZzc.RkyH1e, .CTvDXd.QAAyWd.Fjy05d.ivWUhc.rpgZzc.RkyH1e, .Adwm6c.bJBQjf.QAAyWd, .XUcoqf, .i0uHGd, .stadiaplus_filterbar{
+	background-color: #212020 !important;
+}
+.stadiaplus_dropdown .ss-main .ss-content .ss-list .ss-option.ss-disabled, .ss-option, .ss-19433.ss-main, .ss-content.ss-open, .stadiaplus_libraryfilter-button, .stadiaplus_libraryfilter-searchcolumn {
+	background-color: #212020 !important;
+}
+.stadiaplus_storefilter, .bar, .games {
+	box-shadow: none !important;
+	background-color: #202124 !important;
+}
+.fAJwJf path {
+    fill: #f2ebeb;
+}
+.JW4WZc {
+	background: linear-gradient(rgba(32,33,36,0),rgba(23,22,22)) !important;
+}
+#credits {
+	font-weight: bold;
+	font-family: 'Google Sans',sans-serif;
+}
+
+/* down arrow css */
+.arrow{
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.arrow span{
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+.arrow span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+}
