@@ -24,15 +24,21 @@
 	background-color: transparent !important;
 	/*box-shadow: 0 0.25rem 2.5rem rgba(0,0,0,0.30), 0 0.125rem 0.75rem rgba(0,0,0,0.4);*/
 }
-.bl2XYb, .V0Ny2c, .pmZgLb, .u6yOLc {
+/* User name in profile hamburger */
+.VY8blf.fSorq {
+}
+/* Game artwork background */
+.bl2XYb, .V0Ny2c, .pmZgLb, .u6yOLc{
 	font-weight: bold;
 	background: -webkit-linear-gradient(#FC4A1F, #AC0D57);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+/* Make Game artwork background go behind nav */
 .jMSKXe {
-	height: calc(110vh - 4rem) !important;
+	height: calc(115vh - 4rem) !important;
 }
+/* Change toggle buttons to stadia colors */
 .Uut5Fb[aria-checked="true"]:not([aria-disabled="true"])>.MLPG7{
 	border-color: rgba(172, 13, 87,0.502) !important;
 }
@@ -42,7 +48,19 @@
 .XrPvHf[aria-checked="true"] .MLPG7 {
 	border-color: #AC0D57 !important;
 }
-.bUM8ne.Jkhuz {
+/* add stadia gradient to some buttons */
+.CTvDXd.QAAyWd.Fjy05d.ATH3sf.wJYinb.x8t73b.zDAMsd.rpgZzc.RkyH1e {
+	color: #f2ebeb;
+	background: linear-gradient(90deg,rgba(248,73,27,1) 0%,rgba(241,47,63,1) 50%,rgba(220,24,96,1) 100%);
+}
+/* Change some text to stadia pink/red */
+.EJi1Cd.TNpQ1d, .xA68H, .jhBrHb, .Z5732b, .L4d3Ob.QAAyWd.wJYinb.YySNWc {
+	color: #AC0D57 !important;
+}
+a[href^="//"], a[href^="https"], a[href^="/store/list/3"]{
+	color: #AC0D57 !important;
+}
+.bUM8ne.Jkhuz, .yxTjRc {
 	background: linear-gradient(rgba(32,33,36,0),rgba(23,22,22)) !important;
 }
 .VY8blf.fSorq {
@@ -52,12 +70,19 @@
 	margin-top: 20%;
 	background-color: #171616 !important;
 }
+/* #171616 Darker grey #212020 Lighter grey*/
 .zRamU {
 	background-color: #252424 !important;
 }
-.us22N, .XfSlpd, .hxhAyf, .wvCs4c.ltdNmc, .P9pxvf, .byi4Jf, .iEFmdf, .Ie0Ppf, .WTddpc, .YMoorb, .Z5U6eb.TUSvRc.ahEBEd.fcUT2e, .YM2B3c, .Z5U6eb, .tk10bc.oJeWuf, .stadiaplus_ui-component, .hvEBjd {
+.llhEMd.iWO5td {
+	background: filter: sepia(9%) blur(5px) brightness(87%) hue-rotate(20deg) saturate(88%) contrast(95%);
+}
+/* Dark grey background for menus */
+/* I removed .tk10bc.oJeWuf, because it was conflicting, forget what is was for */
+.fcUT2e.b2r89e.D9Xvwb, .no7S1e, .fcUT2e.b2r89e.khOMmf, .us22N, .XfSlpd, .hxhAyf, .wvCs4c.ltdNmc, .byi4Jf, .iEFmdf, .Ie0Ppf, .WTddpc, .YMoorb, .Z5U6eb.TUSvRc.ahEBEd.fcUT2e, .YM2B3c, .Z5U6eb, .stadiaplus_ui-component, .hvEBjd {
 	background-color: #171616 !important;
 }
+/* Light grey background for menus */
 .TZ0BN, .Ovq7zc, .f6zwtd, .h6J22d.QAAyWd, .CTvDXd.QAAyWd.Fjy05d.ivWUhc.ZULyab.rpgZzc.RkyH1e, .CTvDXd.QAAyWd.Fjy05d.ivWUhc.rpgZzc.RkyH1e, .Adwm6c.bJBQjf.QAAyWd, .XUcoqf, .i0uHGd, .stadiaplus_filterbar{
 	background-color: #212020 !important;
 }
@@ -82,7 +107,7 @@
 /* down arrow css */
 .arrow{
     position: absolute;
-    top: 200%;
+    top: 180%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
